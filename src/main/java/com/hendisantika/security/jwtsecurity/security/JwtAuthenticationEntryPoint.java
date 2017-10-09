@@ -1,4 +1,4 @@
-package com.techprimers.security.jwtsecurity.security;
+package com.hendisantika.security.jwtsecurity.security;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
@@ -8,7 +8,16 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+/**
+ * Created by IntelliJ IDEA.
+ * Project : jwt-security
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 07/10/17
+ * Time: 09.21
+ * To change this template use File | Settings | File Templates.
+ */
 @Component
 public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
     @Override
