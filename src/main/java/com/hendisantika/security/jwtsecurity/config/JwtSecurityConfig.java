@@ -1,9 +1,9 @@
-package com.techprimers.security.jwtsecurity.config;
+package com.hendisantika.security.jwtsecurity.config;
 
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationEntryPoint;
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationProvider;
-import com.techprimers.security.jwtsecurity.security.JwtAuthenticationTokenFilter;
-import com.techprimers.security.jwtsecurity.security.JwtSuccessHandler;
+import com.hendisantika.security.jwtsecurity.security.JwtAuthenticationEntryPoint;
+import com.hendisantika.security.jwtsecurity.security.JwtAuthenticationProvider;
+import com.hendisantika.security.jwtsecurity.security.JwtAuthenticationTokenFilter;
+import com.hendisantika.security.jwtsecurity.security.JwtSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,16 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import java.util.Collections;
-
+/**
+ * Created by IntelliJ IDEA.
+ * Project : jwt-security
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 07/10/17
+ * Time: 09.42
+ * To change this template use File | Settings | File Templates.
+ */
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableWebSecurity
 @Configuration
