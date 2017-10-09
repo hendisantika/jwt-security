@@ -1,11 +1,20 @@
-package com.techprimers.security.jwtsecurity.model;
+package com.hendisantika.security.jwtsecurity.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
-
+/**
+ * Created by IntelliJ IDEA.
+ * Project : jwt-security
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 07/10/17
+ * Time: 09.53
+ * To change this template use File | Settings | File Templates.
+ */
 public class JwtUserDetails implements UserDetails {
 
     private String userName;
