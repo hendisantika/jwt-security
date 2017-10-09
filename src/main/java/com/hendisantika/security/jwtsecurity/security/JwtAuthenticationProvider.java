@@ -1,8 +1,8 @@
-package com.techprimers.security.jwtsecurity.security;
+package com.hendisantika.security.jwtsecurity.security;
 
-import com.techprimers.security.jwtsecurity.model.JwtAuthenticationToken;
-import com.techprimers.security.jwtsecurity.model.JwtUser;
-import com.techprimers.security.jwtsecurity.model.JwtUserDetails;
+import com.hendisantika.security.jwtsecurity.model.JwtAuthenticationToken;
+import com.hendisantika.security.jwtsecurity.model.JwtUser;
+import com.hendisantika.security.jwtsecurity.model.JwtUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;
@@ -13,7 +13,16 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+/**
+ * Created by IntelliJ IDEA.
+ * Project : jwt-security
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 07/10/17
+ * Time: 09.24
+ * To change this template use File | Settings | File Templates.
+ */
 @Component
 public class JwtAuthenticationProvider extends AbstractUserDetailsAuthenticationProvider {
 
