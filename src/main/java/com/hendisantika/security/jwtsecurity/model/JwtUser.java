@@ -1,5 +1,15 @@
-package com.techprimers.security.jwtsecurity.model;
+package com.hendisantika.security.jwtsecurity.model;
 
+/**
+ * Created by IntelliJ IDEA.
+ * Project : jwt-security
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 07/10/17
+ * Time: 09.47
+ * To change this template use File | Settings | File Templates.
+ */
 public class JwtUser {
     private String userName;
     private long id;
