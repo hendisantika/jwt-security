@@ -1,7 +1,7 @@
 package com.hendisantika.security.jwtsecurity.controller;
 
-import com.hendisantika.security.jwtsecurity.security.JwtGenerator;
 import com.hendisantika.security.jwtsecurity.model.JwtUser;
+import com.hendisantika.security.jwtsecurity.security.JwtGenerator;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/token")
 public class TokenController {
-
 
     private JwtGenerator jwtGenerator;
 

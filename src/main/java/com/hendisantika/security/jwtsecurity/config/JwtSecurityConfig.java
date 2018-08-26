@@ -32,7 +32,6 @@ import java.util.Collections;
 @Configuration
 public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
 
-
     @Autowired
     private JwtAuthenticationProvider authenticationProvider;
     @Autowired
@@ -50,7 +49,6 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
         filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
         return filter;
     }
-
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
